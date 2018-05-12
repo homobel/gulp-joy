@@ -1,0 +1,23 @@
+{
+    "name": "gulp-joy",
+    "version": "0.0.1",
+    "description": "gulp plugin for joy",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "joy",
+        "templates",
+        "gulp"
+    ],
+    "author": "Archy Sharp",
+    "license": "MIT",
+    "dependencies": {
+        "gulp": "^3.9.1",
+        "gulp-util": "^3.0.4",
+        "joytpl": "^0.0.4",
+        "replace-ext": "^1.0.0",
+        "through2": "^0.6.3"
+    }
+}
