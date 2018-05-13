@@ -24,7 +24,11 @@ module.exports = (options) => {
                 return cb(new PluginError(PLUGIN_NAME, err.message));
             }
 
-            file.contents = new Buffer(data);
+            if (options.handleExtracted) {
+                options.handleExtracted(data.extracted);
+            }
+
+            file.contents = new Buffer(data.content);
         });
 
         file.path = replaceExt(file.path, '.js');
