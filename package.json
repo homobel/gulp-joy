@@ -1,6 +1,6 @@
 {
     "name": "gulp-joy",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "gulp plugin for joytpl",
     "main": "index.js",
     "scripts": {
@@ -21,10 +21,10 @@
     "author": "Archy Sharp",
     "license": "MIT",
     "dependencies": {
-        "gulp": "^3.9.1",
-        "gulp-util": "^3.0.4",
-        "joytpl": "^0.0.5",
+        "gulp": "^4.0.2",
+        "gulp-util": "^3.0.8",
+        "joytpl": "^0.0.6",
         "replace-ext": "^1.0.0",
-        "through2": "^0.6.3"
+        "through2": "^3.0.1"
     }
 }
