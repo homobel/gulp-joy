@@ -23,7 +23,7 @@
     "dependencies": {
         "gulp": "^4.0.2",
         "gulp-util": "^3.0.8",
-        "joytpl": "^0.0.6",
+        "joytpl": "^0.0.7",
         "replace-ext": "^1.0.0",
         "through2": "^3.0.1"
     }
