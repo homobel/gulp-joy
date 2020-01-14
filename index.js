@@ -1,5 +1,5 @@
 const through = require('through2');
-const PluginError = require('gulp-util').PluginError;
+const PluginError = require('plugin-error');
 const replaceExt = require('replace-ext');
 const joy = require('joytpl');
 
