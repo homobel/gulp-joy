@@ -6,7 +6,7 @@
 npm i gulp-joy
 ```
 ```js
-//...
+const joy = require('gulp-joy');
 
 gulp.task('joy', () => {
     return gulp.src('tpl/**/*.joy')
