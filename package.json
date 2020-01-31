@@ -1,6 +1,6 @@
 {
     "name": "gulp-joy",
-    "version": "0.0.16",
+    "version": "0.0.17",
     "description": "gulp plugin for joytpl",
     "main": "index.js",
     "scripts": {
@@ -23,7 +23,7 @@
     "dependencies": {
         "gulp": "^4.0.2",
         "plugin-error": "^1.0.1",
-        "joytpl": "^0.0.18",
+        "joytpl": "^0.0.19",
         "replace-ext": "^1.0.0",
         "through2": "^3.0.1"
     }
