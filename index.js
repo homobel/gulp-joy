@@ -28,11 +28,11 @@ module.exports = (options) => {
                 options.handleExtracted(data.extracted);
             }
 
-            file.contents = new Buffer(data.content);
-        });
+            file.contents = Buffer.from(data.content);
+            file.path = replaceExt(file.path, '.js');
 
-        file.path = replaceExt(file.path, '.js');
-        cb(null, file);
+            cb(null, file);
+        });
     }
 
     return through.obj(transform);
